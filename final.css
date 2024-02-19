@@ -8,24 +8,22 @@
   }
   
   .questions {
-    display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 20px;
     background-color: rgb(160, 199, 100);
   }
   
   .question-box {
     display: flex;
     justify-content: center;
-    text-align: wrap;
+    text-align: center;
     color: white;
     background-color: blue;
     background-color: rbg(21, 21, 21);
-    margin: 5px;
+    margin: 10px;
     color: rgp(230, 230, 230);
     border-radius: 5%;
-    padding: 0px 20px 20px;
+    padding: 0px 30px 30px;
   }
   
   .question-box h1 {
@@ -40,12 +38,14 @@
   }
   form {
       text-align: center;
+      font-size: 100px;
+      color: red;
   }
   
   button {
     text-align: center;
     background-color: green;
-    font-size: 10px;
+    font-size: 30px;
   }
   .next-round {
     text-align: right;
@@ -56,7 +56,11 @@
     text-align: right;
     justify-content: space-around;
   }
-  #next-rnd-container {
-    text-align: right;
-    color-scheme: ;
+  div {
+    text-align: center;
+  }
+
+  .question-area {
+    text-align: center;
+    justify-content: center;
   }

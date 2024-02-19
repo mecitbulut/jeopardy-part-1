@@ -2,11 +2,13 @@ header {
     text-align: center;
     color: green;
     margin-top: 80px;
+    
 
 }
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
+    margin-left: 250px;
 }
 
 #play-btn-container {
