@@ -15,8 +15,8 @@
   
   .question-box {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: wrap;
+    text-align: space-between;
     color: white;
     background-color: blue;
     background-color: rbg(21, 21, 21);
@@ -27,7 +27,7 @@
   }
   
   .question-box h1 {
-    text-align: center;
+    text-align: flext;
     color: rgb(177, 136, 211);
     justify-content: center;
   }
