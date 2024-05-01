@@ -3,15 +3,14 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 10px;
-  color: red;
+  padding: 15px;
+  color: darkolivegreen;
 }
 
 .questions {
   display: grid;
-  justify-content: center;
+  justify-content: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px;
   background-color: rgb(160, 199, 100);
 }
 
@@ -24,8 +23,8 @@
   background-color: rbg(21, 21, 21);
   margin: 5px;
   color: rgp(230, 230, 230);
-  border-radius: 5%;
-  padding: 0px 20px 20px;
+  border-radius: 8%;
+  padding: 10px 20px 15px;
 }
 
 .question-box h1 {
@@ -33,10 +32,12 @@
   color: rgb(177, 136, 211);
   justify-content: center;
 }
+
 .question h3 {
     display: grid;
     text-align: center;
     color: yellow;
+    text-align: center;
 }
 form {
     text-align: center;
@@ -44,19 +45,35 @@ form {
 
 button {
   text-align: center;
-  background-color: green;
-  font-size: 20px;
+  background-color: blue;
+  font-size: 15px;
+  color: white;
 }
 .next-round {
-  text-align: right;
-  margin: 30px;
-  color: blue;
+  text-align: center;
+  color: white;
+  justify-content: flex-end;
+  color-scheme: blue;
+
 }
 .Player-1 {
-  text-align: right;
-  justify-content: space-around;
+  text-align: left;
+  padding-left: 120px;
+  display: grid;
+  color: blue;
+  margin-right: 100px;
 }
-#next-rnd-container {
+.Player-2 {
   text-align: right;
-  color-scheme: ;
+  display: grid;
+  color: blue;
+  padding-right: 120px;
+  align-self: flex-end;
+}
+
+#next-rnd-container {
+  text-align: center;
+  margin-bottom: 100px;
+  color: yellowgreen;
+
 }

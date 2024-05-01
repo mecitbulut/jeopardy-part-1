@@ -1,66 +1,66 @@
 .app {
-    font-family: "Trebuchet MS", "Lucida Grande", Verdana, Arial, Sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    color: red;
-  }
-  
-  .questions {
-    justify-content: center;
-    gap: 20px;
-    background-color: rgb(160, 199, 100);
-  }
-  
-  .question-box {
-    display: flex;
-    justify-content: wrap;
-    text-align: space-between;
-    color: white;
-    background-color: blue;
-    background-color: rbg(21, 21, 21);
-    margin: 10px;
-    color: rgp(230, 230, 230);
-    border-radius: 5%;
-    padding: 0px 30px 30px;
-  }
-  
-  .question-box h1 {
-    text-align: flext;
-    color: rgb(177, 136, 211);
-    justify-content: center;
-  }
-  .question h3 {
-      display: grid;
-      text-align: center;
-      color: yellow;
-  }
-  form {
-      text-align: center;
-      font-size: 100px;
-      color: red;
-  }
-  
-  button {
-    text-align: center;
-    background-color: green;
-    font-size: 30px;
-  }
-  .next-round {
-    text-align: right;
-    margin: 30px;
-    color: blue;
-  }
-  .Player-1 {
-    text-align: right;
-    justify-content: space-around;
-  }
-  div {
-    text-align: center;
-  }
+  font-family: "Trebuchet MS", "Lucida Grande", Verdana, Arial, Sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: darkolivegreen;
+}
 
-  .question-area {
-    text-align: center;
-    justify-content: center;
-  }
+.questions {
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(160, 199, 100);
+}
+
+.question-box {
+  display: flex;
+  justify-content: wrap;
+  text-align: space-between;
+  color: white;
+  background-color: blue;
+  background-color: rbg(21, 21, 21);
+  margin: 10px;
+  color: rgp(230, 230, 230);
+  border-radius: 5%;
+  padding: 0px 30px 30px;
+}
+
+.question-box h1 {
+  text-align: flext;
+  color: rgb(177, 136, 211);
+  justify-content: center;
+}
+.question h3 {
+  display: grid;
+  text-align: center;
+  color: yellow;
+}
+form {
+  text-align: center;
+  font-size: 100px;
+  color: red;
+}
+
+button {
+  text-align: center;
+  background-color: green;
+  font-size: 30px;
+}
+.next-round {
+  text-align: right;
+  margin: 30px;
+  color: blue;
+}
+.Player-1 {
+  text-align: right;
+  justify-content: space-around;
+}
+div {
+  text-align: center;
+}
+
+.question-area {
+  text-align: center;
+  justify-content: center;
+}

@@ -55,7 +55,7 @@ const placeholderQuestions = [
     },
     {
       category: "Animals",
-      question: "What is the fastest  land animal?",
+      question: "What is the fastest land animal?",
       answer: "Cheetah",
     },
     {
